@@ -5,8 +5,6 @@
 **持械/管制器具双形态视频监管：卡口实时告警 + 以图搜械检索。合规红线全部代码化。**
 
 ![python](https://img.shields.io/badge/python-3.8%2B-blue)
-<!-- 发布时将 OWNER/REPO 替换为实际仓库路径, 并将 ci.yml 复制到 .github/workflows/ci.yml -->
-![ci](https://img.shields.io/badge/CI-pending-lightgrey)
 ![deps](https://img.shields.io/badge/core%20deps-numpy%20%2B%20opencv-orange)
 ![tests](https://img.shields.io/badge/tests-76%20passed-brightgreen)
 ![license](https://img.shields.io/badge/license-Commercial-blue)

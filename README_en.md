@@ -5,8 +5,6 @@
 **Dual-form weapon & controlled-item video surveillance: real-time checkpoint alerts + image-search over archived video. Compliance red-lines enforced in code.**
 
 ![python](https://img.shields.io/badge/python-3.8%2B-blue)
-<!-- Replace OWNER/REPO with the actual repo path when publishing, and copy ci.yml to .github/workflows/ci.yml -->
-![ci](https://img.shields.io/badge/CI-pending-lightgrey)
 ![deps](https://img.shields.io/badge/core%20deps-numpy%20%2B%20opencv-orange)
 ![tests](https://img.shields.io/badge/tests-76%20passed-brightgreen)
 ![license](https://img.shields.io/badge/license-Commercial-blue)
