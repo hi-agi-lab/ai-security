@@ -11,6 +11,9 @@
 ![tests](https://img.shields.io/badge/tests-76%20passed-brightgreen)
 ![license](https://img.shields.io/badge/license-Commercial-blue)
 
+[![powered by AutoVision](https://img.shields.io/badge/powered%20by-AutoVision-0FDC78)](https://github.com/hi-agi-lab/AutoVision)
+[![pypi](https://img.shields.io/pypi/v/autovision-framework)](https://pypi.org/project/autovision-framework/)
+
 English | **[简体中文](README.md)**
 
 <img src="images/demo_pipeline.gif" alt="Checkpoint pipeline: frame → open-vocab detection + negative-prompt disambiguation → person gate / hold accumulation → AI-Reference 3-state adjudication → risk4 clue" width="760px"/>
@@ -231,3 +234,7 @@ provides reproducible fetching (annotations for research only);
 `detections.json` / `confirms.json` and evaluation reports ship with the
 repo. Deployment is restricted to authority-led scene lists (FR-COM-02);
 the "controlled item" legal determination belongs to the police.
+
+---
+
+The detection backbone, streaming inference runtime, and export chain of this solution are provided by the open-source framework [AutoVision](https://github.com/hi-agi-lab/AutoVision) (`pip install autovision-framework`); see the [integration design](https://hi-agi-lab.github.io/AutoVision/ecosystem/) for details.

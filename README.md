@@ -11,6 +11,9 @@
 ![tests](https://img.shields.io/badge/tests-76%20passed-brightgreen)
 ![license](https://img.shields.io/badge/license-Commercial-blue)
 
+[![powered by AutoVision](https://img.shields.io/badge/powered%20by-AutoVision-0FDC78)](https://github.com/hi-agi-lab/AutoVision)
+[![pypi](https://img.shields.io/pypi/v/autovision-framework)](https://pypi.org/project/autovision-framework/)
+
 **[English](README_en.md)** | 简体中文
 
 <img src="images/demo_pipeline.gif" alt="卡口管线: 取帧 → 开放词汇检测+负提示消歧 → 人形门/持握累积 → AI-Reference 三态裁决 → risk4 线索" width="760px"/>
@@ -211,3 +214,7 @@ python -m weapon_guard.workbench_server --db /data/weapon.db --port 8302
 研究），`detections.json` / `confirms.json` 与评估报告随仓库提供。
 本系统仅在政府/主管部门主导的场景清单内部署（FR-COM-02）；
 "管制器具"定性由公安依职权认定。
+
+---
+
+本方案的检测底座、流式推理运行时与导出链路由开源框架 [AutoVision](https://github.com/hi-agi-lab/AutoVision) 提供（`pip install autovision-framework`）；接入设计见[《行业方案接入》](https://hi-agi-lab.github.io/AutoVision/ecosystem/)。
